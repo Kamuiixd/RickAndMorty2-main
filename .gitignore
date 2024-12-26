@@ -1,0 +1,8 @@
+# CARPETAS DE DEPENDECIAS
+node_modules/
+
+# VARIABLES DE ENTORNO
+.env
+
+# CARPETA DE BUILD
+build/

@@ -1,0 +1,17 @@
+.card-personajes-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 2px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 2); 
+}
+.box-personajes{
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

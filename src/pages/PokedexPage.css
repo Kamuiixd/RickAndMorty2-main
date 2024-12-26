@@ -1,0 +1,111 @@
+.pokedex-container {
+    background-color: #DC0A2D;
+    border: 5px solid #1E1E1E;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  
+  .screen-container {
+    background-color: #D8E8D8;
+    border: 5px solid #1E1E1E;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .main-screen {
+    background-color: #98CB98;
+    border: 5px solid #1E1E1E;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .pokemon-image {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .pokemon-image-3d {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .description-box {
+    background-color: #98CB98;
+    border: 5px solid #1E1E1E;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    height: 120px;
+    overflow-y: auto;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .action-button {
+    background-color: #F08030;
+    color: white;
+    font-weight: bold;
+    border: 3px solid #1E1E1E;
+  }
+  
+  .action-button:hover {
+    background-color: #F8D030;
+    color: black;
+  }
+  
+  .stats-screen {
+    background-color: #98CB98;
+    border: 5px solid #1E1E1E;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    font-family: monospace;
+  }
+  
+  .pokemon-title {
+    text-transform: capitalize;
+  }
+  
+  .evolution-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #98CB98;
+    border: 5px solid #1E1E1E;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+  }
+  
+  .evolution-image {
+    max-width: 80px;
+    max-height: 80px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .evolution-name {
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
